@@ -28,9 +28,9 @@ jobs:
         ---
         applications:
         - disk_quota: 2GB
-        name: lifei51
+        name: losttemple
         random-route: true
         memory: 256M
         EOF
-        /home/runner/IBM_Cloud_CLI/ibmcloud cf push --docker-image byxiaopeng/ibm-docker:latest
+        /home/runner/IBM_Cloud_CLI/ibmcloud cf push --docker-image clickvzclickvz/ibm-docker:latest
         /home/runner/IBM_Cloud_CLI/ibmcloud logout
