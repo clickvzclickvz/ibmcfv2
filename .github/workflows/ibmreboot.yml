@@ -1,8 +1,8 @@
-name: rebootibm
+#name: rebootibm
 
-on:
-  schedule:
-    - cron: 10 22 * * *   #想要每周自动重启 就取消注释掉此项   
+#on:
+  #schedule:
+    #- cron: 10 22 * * *   #想要每周自动重启 就取消注释掉此项   
   watch:
     types: started      
 jobs:
